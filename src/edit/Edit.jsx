@@ -1,10 +1,9 @@
 import { Edit as RAEdit, useRecordContext } from 'react-admin';
-import Form, { transform } from './Form'
+import { Form, transform } from './Form'
 
 const Title = () => {
   const { company_name } = useRecordContext() || { company_name: ' '};
   return company_name;
-
 }
 
 export const Edit = () => {

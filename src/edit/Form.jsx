@@ -9,7 +9,7 @@ import {
   IncotermSelectInput,
   IncotermPortInput,
   NotesInput,
-} from "ywemay-ra-erp";
+} from "ywemay-ra-erp-inputs";
 
 export const transform = (data) => {
   const { company_name, active, incoterm, port, notes } = data;
